@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+ <link rel="stylesheet" href="./Boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+    
+    .profile-img {
+        border-radius: 50%;
+        width: 200px; /* Adjust the width as needed */
+        height: 200px; /* Adjust the height as needed to maintain circular shape */
+        object-fit: cover; /* Ensures the image fits within the circle */
+        padding: 5px; /* Adjust the padding as needed */
+        background-color: white; 
+    }
+        .main-section {
+            margin-top: 30px;
+        }
+        .download-btn {
+            background-color: #00c3ff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .download-btn:hover {
+            background-color: #00a3d1;
+        }
+        .card {
+            background-color: #1f1f1f;
+            border: none;
+            color: white;
+        }
+        .progress-bar {
+            background-color: #00c3ff;
+        }
+        /* .footer {
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #1c1c1c;
+        } */
+        .section-heading {
+            border-bottom: 2px solid #00c3ff;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        p{
+            text-align: justify;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Aman Pushp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <section class="container main-section text-center" >
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <img src="./aman23.png" alt="Profile" class="profile-img mb-3">
+                
+            </div>
+            <div class="col-md-4 text-start">
+                <button class="download-btn">Hi, I am</button>
+                <h1>Aman Pushp</h1>
+                <p>Master in Computer Application</p>
+                <ul class="list-unstyled">
+                    <li class="bi bi-envelope"> amanpushp2001@gmail.com</li>
+                    <li class="bi bi-phone"> +91 9709543825</li>
+                    <li class="bi bi-linkedin"> www.linkedin.com/in/aman-pushp-b1a501223</li>
+                    <li class="bi bi-github"> https://github.com/AMANPUSHP23</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4 g-4">
+            <div class="col text-start">
+                <h3 class=" colsection-heading text-center fs-1 pb-3 pt-4">About Me</h3>
+                <p class="textabout">
+                  A passionate and results-driven MERN Stack Developer with 
+                  hands-on experience in full-stack web development.
+                   Proficient in building responsive, user-centric applications using JavaScript, ReactJS, Node.js, 
+                   and Express.js. Adept in database management, API integration, 
+                   and front-end/backend development. Strong background in Java, 
+                   Python, and SQL, with additional expertise in software tools like Git, 
+                   Postman, and VS Code. Demonstrated leadership in contributing to open-source projects and 
+                   recognized for coding excellence. Seeking to leverage my technical skills in a 
+                   challenging developer role.
+                   Key Projects:
+
+                   Fasteat: Developed a full-stack food delivery website using React and Node.js, incorporating secure authentication with JWT and payment processing with Stripe API.
+                   Lime Road Shopping Clone: Built a shopping website clone using React, with features like product browsing, user authentication, and wishlist management.
+                   Portfolio Website: Created a personal portfolio showcasing skills, qualifications, and projects using Unicons, Boxicons, and EmailJs.
+                </p>
+                <button class="download-btn">Download CV</button>
+            </div>
+            <div class="col-5 d-none d-md-block">
+                <img src="./aman23.png" alt="Profile Image 2" class="img-fluid" width="500" height="400" >
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Records Section -->
+  <section class="container py-5" id="academic">
+    <h2 class=" text-center fs-1 pb-4">My Academic Records</h2>
+    <div class="row ">
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h5>MCA</h5>
+            <i class="bi bi-mortarboard custom"> Silicon Institute of Technology</i>
+            <i class="bi bi-pencil d-block custom"> 9.3(CGPA)</i>
+            <i class="bi bi-calendar-check custom"> 2023 - 2025</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h5>BCA</h5>
+            <i class="bi bi-mortarboard custom">Vinoba Bhave University</i>
+            <i class="bi bi-pencil d-block custom"> 74.85%</i>
+            <i class="bi bi-calendar-check custom"> 2018 - 2021</i>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card bg-light text-dark">
+          <div class="card-body">
+            <h5>Higher Secondary</h5>
+            <i class="bi bi-mortarboard"> Chatra College Chatra</i>
+            <i class="bi bi-pencil d-block"> 65%</i>
+            <i class="bi bi-calendar-check"> 2016 - 2018</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 mb-4 ">
+        <div class="card bg-light text-dark ">
+          <div class="card-body">
+            <h5>Secondary</h5>
+            <i class="bi bi-mortarboard custom" >S.S Boy High School</i>
+            <i class="bi bi-pencil d-block custom"> 77%</i>
+            <i class="bi bi-calendar-check custom"> 2006 -2016</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Technical Skills Section -->
+    <section class="container  mt-5">
+        <h3 class="text-center fs-1 pb-4">Technical Skills</h3>
+        <div class="row">
+            <div class="col-md-6">
+                <h6>Python</h6>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6>HTML</h6>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6>C</h6>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6>CSS</h6>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6>JavaScript</h6>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6>Bootstrap</h6>
+                <div class="progress mb-3">
+                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container text-center mt-5">
+        <h3 class="text-center fs-1 pb-4">My Projects</h3>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><p class="card-title">Startup Landing Page.</p></h5>
+                        <p class="card-text"><i class="bi bi-tools">Tools: HTML, CSS, Bootstrap</p></i>
+                        <p class="card-text">A sleek, high-conversion landing page designed for startups. It includes a hero section, features overview, client testimonials, and a call-to-action button. Users can easily navigate between categories, and the site supports pagination.The page is fully responsive, with animations and a sticky navbar for a smooth user experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><p class="card-title">Creative Agency.</p></h5>
+                        <p class="card-text "><i class="bi bi-tools">Tools: HTML, CSS, Bootstrap</p></i>
+                        <p class="card-text"> A modern website for a creative design agency. It includes sections like "Services", "Our Work", and "Meet the Team", built using Bootstrap's grid system, carousels, and modals for interactive elements. Parallax scrolling and smooth transitions enhance the user experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><p class="card-title">Event Planner.</p></h5>
+                        <p class="card-text"><i class="bi bi-tools">Tools: HTML, CSS, Bootstrap</p></i>
+                        <p class="card-text"> A website for managing and promoting events, such as conferences or meetups. It features a responsive event calendar, registration form, and a countdown timer built with Bootstrap. The site includes a "Speakers" section, with modals showing detailed information on each guest.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5><p class="card-title"> Photography Showcase.</p></h5>
+                        <p class="card-text"><i class="bi bi-tools">Tools: HTML, CSS, Bootstrap</p></i>
+                        <p class="card-text">A portfolio website designed for photographers to showcase their work. It uses Bootstrap’s carousel and grid system to create a visually appealing gallery. The website is fully responsive with hover effects and lightbox modals to view full-size images.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <p class="text-center">&copy; 2023 Aman pushp</p>
+    </footer>
+
+    <script src="./Boostrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
